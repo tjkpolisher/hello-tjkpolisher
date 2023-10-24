@@ -15,9 +15,18 @@ import hello_tjkpolisher
 ### `who.py`
 #### `my_name` and `who`
 These functions print certain sentences.
+```Python
+from hello_tjkpolisher.who import my_name, who
+```
 #### `print_name`
-This function gets an input of string which is one's name. Then, the function print the input string.
+This function gets an input of string which is one's name. Then, the function print the input string.  
+```Python
+from hello_tjkpolisher.who import print_name
+```
 
 ### `randomness.py`
 #### `lotto_kr`
-This function generates a series of lottery number, based on the rule of Korean Lotto. This function randomly extracts six integer from 1 to 45 and then print them in ascending order.
+This function generates a series of lottery number, based on the rule of Korean Lotto. This function randomly extracts six integer from 1 to 45 and then print them in ascending order.  
+```Python
+from hello_tjkpolisher.randomness import lotto_kr
+```
